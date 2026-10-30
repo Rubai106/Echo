@@ -1,0 +1,103 @@
+============================================================
+           AI USAGE DECLARATION
+============================================================
+
+Name: Samin Yeasar Rubai
+Student ID: 23201275
+Assignment: 2
+Date: 31/10/2026
+
+------------------------------------------------------------
+1. AI TOOLS USED (check all that apply)
+------------------------------------------------------------
+[ ] None
+[x] ChatGPT
+[ ] GitHub Copilot
+[ ] Google Gemini
+[ ] Claude
+[ ] Cursor
+[ ] Other: ________________
+
+------------------------------------------------------------
+2. PURPOSE OF AI USE (check all that apply)
+------------------------------------------------------------
+[x] Learning/understanding concepts
+[x] Debugging my code
+[x] Generating code snippets
+[ ] Writing text content
+[x] Design/styling ideas
+[ ] Image generation
+[ ] Other: ________________
+
+------------------------------------------------------------
+3. DESCRIPTION OF AI USE
+------------------------------------------------------------
+ChatGPT was used as a targeted coding and debugging assistant,
+primarily for technically challenging Android implementation
+and troubleshooting. Its assistance included the MediaPlayer
+and TextureView video playback path, Surface/SurfaceTexture and
+player lifecycle handling, playback callbacks and first-frame
+rendering diagnostics; audio playback lifecycle and audio-focus
+handling; and the custom BroadcastReceiver registration and
+message-delivery flow.
+
+ChatGPT also helped investigate Android/Gradle build errors and
+resolve UI visibility and layout problems, including spinner
+selected/dropdown text contrast, message-input text and hint
+colours, keyboard-aware form scrolling, and navigation-drawer
+contrast.
+
+I reviewed the changes, built and tested the application on an
+emulator and a physical Android phone, and remain responsible
+for understanding, verifying, integrating, and submitting the
+final work. ChatGPT did not independently complete or submit
+the assignment.
+
+------------------------------------------------------------
+4. AI-ASSISTED SECTIONS
+------------------------------------------------------------
+
+File: app/src/main/java/com/example/echo/fragments/VideoFragment.kt
+Section: MediaPlayer + TextureView playback, video output surface
+         lifecycle, first-frame rendering callbacks, and error
+         handling/debugging.
+
+File: app/src/main/java/com/example/echo/fragments/AudioFragment.kt
+Section: MediaPlayer lifecycle, playback state handling, and
+         Android audio-focus management.
+
+File: app/src/main/java/com/example/echo/fragments/BroadcastReceiverFragment.kt
+      app/src/main/java/com/example/echo/activities/CustomBroadcastActivity.kt
+      app/src/main/java/com/example/echo/activities/CustomMessageActivity.kt
+Section: Custom BroadcastReceiver registration and message delivery
+         workflow; spinner adapter and selection-flow debugging.
+
+File: app/src/main/res/layout/activity_custom_message.xml
+      app/src/main/res/layout/fragment_broadcast_receiver.xml
+      app/src/main/res/layout/activity_main.xml
+      app/src/main/res/color/nav_item_text.xml
+      app/src/main/res/drawable/nav_item_background.xml
+Section: Text-input readability, responsive form layout, spinner
+         text visibility, and navigation-drawer contrast.
+
+File: .github/workflows/android-build.yml
+      gradlew
+      gradlew.bat
+Section: Gradle wrapper/build configuration and automated Android
+         build/test troubleshooting.
+
+------------------------------------------------------------
+5. DECLARATION
+------------------------------------------------------------
+I declare that:
+- This disclosure is complete and accurate to the best of my knowledge
+- I understand the code in my submission
+- I can explain and modify my work if asked
+- I take full responsibility for my submission
+
+Signature: _______________________
+Date: ___________________________
+
+============================================================
+Save as: docs/AI_Declaration.txt
+============================================================
