@@ -30,10 +30,15 @@
     <string name="video_player_hint">Use the playback controls to play the sample video.</string>
     <string name="video_preparing">Preparing video…</string>
     <string name="video_playing">Playing sample video</string>
+    <string name="video_waiting_for_frame">Video started; waiting for the first frame…</string>
+    <string name="video_no_frame">The player started, but Android did not render a video frame. Check device graphics support.</string>
+    <string name="video_buffering">Buffering video…</string>
+    <string name="video_playback_error_details">Video playback failed (error %1$d, detail %2$d).</string>
+    <string name="video_content_description">Video preview</string>
     <string name="video_completed">Playback complete. Use the controls to replay.</string>
     <string name="video_playback_error">The video could not be played. Please try reopening this screen.</string>
     <string name="audio_player_title">Audio Player</string>
-    <string name="audio_player_hint">Play the included sample audio clip.</string>
+    <string name="audio_player_hint">Tap Play to hear the included sample audio clip. Check your device media volume.</string>
     <string name="audio_preparing">Preparing audio…</string>
     <string name="audio_ready">Ready to play</string>
     <string name="audio_playing">Playing sample audio…</string>
@@ -41,8 +46,11 @@
     <string name="audio_stopped">Audio stopped. Press Play to listen again.</string>
     <string name="audio_completed">Playback complete. Press Play to listen again.</string>
     <string name="audio_playback_error">Audio could not be loaded. Please try reopening this screen.</string>
+    <string name="audio_playback_error_details">Audio playback failed (error %1$d, detail %2$d).</string>
+    <string name="audio_focus_denied">Audio playback is unavailable because another app has audio focus.</string>
     <string name="third_activity_explanation">This activity registers a custom BroadcastReceiver, receives the message broadcast from the previous screen, and displays the received text below.</string>
     <string name="play">Play</string>
     <string name="pause">Pause</string>
+    <string name="replay">Replay</string>
     <string name="stop">Stop</string>
 </resources>
