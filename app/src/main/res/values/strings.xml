@@ -4,52 +4,53 @@
     <string name="navigate_back">Back</string>
     <string name="open_navigation_drawer">Open navigation drawer</string>
     <string name="drawer_title">Echo</string>
-    <string name="drawer_subtitle">Broadcast &amp; Media</string>
     <string name="broadcast_receiver">Broadcast Receiver</string>
     <string name="image_scale">Image Scale</string>
     <string name="video">Video</string>
     <string name="audio">Audio</string>
+
     <string-array name="broadcast_options">
         <item>Custom broadcast receiver</item>
         <item>System battery notification receiver</item>
     </string-array>
     <string name="select_broadcast_type">Select a broadcast type</string>
     <string name="proceed">Proceed</string>
-    <string name="custom_message_title">Custom Broadcast Receiver</string>
-    <string name="enter_message_hint">Enter a plain text message</string>
-    <string name="send_message">Send Message</string>
-    <string name="received_message_title">Received Broadcast Message</string>
-    <string name="no_message_yet">Waiting for the custom broadcast…</string>
-    <string name="battery_title">System Battery Notification Receiver</string>
-    <string name="battery_waiting">Waiting for ACTION_BATTERY_CHANGED…</string>
-    <string name="battery_percentage">Battery level: %1$d%%</string>
-    <string name="image_scale_hint">Pinch with two fingers to zoom in or out.</string>
-    <string name="image_loading">Loading an image from the internet…</string>
-    <string name="image_load_failed">Could not load the image. Check your internet connection and reopen this screen.</string>
-    <string name="video_player_title">Video Player</string>
-    <string name="video_player_hint">Use the playback controls to play the sample video.</string>
-    <string name="video_preparing">Preparing video…</string>
-    <string name="video_playing">Playing sample video</string>
-    <string name="video_paused">Video paused</string>
-    <string name="video_waiting_for_frame">Video started; waiting for the first frame…</string>
-    <string name="video_no_frame">The player started, but Android did not render a video frame. Check device graphics support.</string>
-    <string name="video_buffering">Buffering video…</string>
-    <string name="video_playback_error_details">Video playback failed (error %1$d, detail %2$d).</string>
+
+    <string name="custom_message_title">Custom Broadcast</string>
+    <string name="enter_message_hint">Enter message</string>
+    <string name="send_message">Send</string>
+    <string name="received_message_title">Received Message</string>
+    <string name="no_message_yet">Waiting for message…</string>
+
+    <string name="battery_title">Battery Receiver</string>
+    <string name="battery_waiting">Battery level</string>
+    <string name="battery_percentage">Battery: %1$d%%</string>
+
+    <string name="image_loading">Loading image…</string>
+    <string name="image_load_failed">Couldn’t load image</string>
+    <string name="image_content_description">Image preview. Pinch to zoom.</string>
+
+    <string name="video_preparing">Preparing…</string>
+    <string name="video_playing">Playing</string>
+    <string name="video_paused">Paused</string>
+    <string name="video_waiting_for_frame">Starting video…</string>
+    <string name="video_no_frame">Video frame unavailable</string>
+    <string name="video_buffering">Buffering…</string>
+    <string name="video_playback_error_details">Video error (%1$d, %2$d)</string>
     <string name="video_content_description">Video preview</string>
-    <string name="video_completed">Playback complete. Use the controls to replay.</string>
-    <string name="video_playback_error">The video could not be played. Please try reopening this screen.</string>
-    <string name="audio_player_title">Audio Player</string>
-    <string name="audio_player_hint">Tap Play to hear the included sample audio clip. Check your device media volume.</string>
-    <string name="audio_preparing">Preparing audio…</string>
-    <string name="audio_ready">Ready to play</string>
-    <string name="audio_playing">Playing sample audio…</string>
-    <string name="audio_paused">Audio paused</string>
-    <string name="audio_stopped">Audio stopped. Press Play to listen again.</string>
-    <string name="audio_completed">Playback complete. Press Play to listen again.</string>
-    <string name="audio_playback_error">Audio could not be loaded. Please try reopening this screen.</string>
-    <string name="audio_playback_error_details">Audio playback failed (error %1$d, detail %2$d).</string>
-    <string name="audio_focus_denied">Audio playback is unavailable because another app has audio focus.</string>
-    <string name="third_activity_explanation">This activity registers a custom BroadcastReceiver, receives the message broadcast from the previous screen, and displays the received text below.</string>
+    <string name="video_completed">Finished</string>
+    <string name="video_playback_error">Couldn’t play video</string>
+
+    <string name="audio_preparing">Preparing…</string>
+    <string name="audio_ready">Ready</string>
+    <string name="audio_playing">Playing</string>
+    <string name="audio_paused">Paused</string>
+    <string name="audio_stopped">Stopped</string>
+    <string name="audio_completed">Finished</string>
+    <string name="audio_playback_error">Couldn’t play audio</string>
+    <string name="audio_playback_error_details">Audio error (%1$d, %2$d)</string>
+    <string name="audio_focus_denied">Audio unavailable</string>
+
     <string name="play">Play</string>
     <string name="pause">Pause</string>
     <string name="replay">Replay</string>
