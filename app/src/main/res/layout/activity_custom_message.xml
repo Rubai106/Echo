@@ -37,6 +37,8 @@
                     android:backgroundTint="@color/primary"
                     android:gravity="center_vertical|start"
                     android:hint="@string/enter_message_hint"
+                    android:textColor="@color/text_primary"
+                    android:textColorHint="@color/text_secondary"
                     android:imeOptions="actionDone"
                     android:inputType="textCapSentences"
                     android:maxLines="1"
