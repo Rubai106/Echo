@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
@@ -9,17 +10,27 @@
         android:id="@+id/image_status"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
         android:text="@string/image_loading"
         android:textColor="@color/text_secondary"
         android:textSize="13sp" />
 
-    <com.example.echo.ui.ZoomableImageView
-        android:id="@+id/zoomable_image"
+    <com.google.android.material.card.MaterialCardView
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:layout_marginTop="8dp"
         android:layout_weight="1"
-        android:background="#E1E7ED"
-        android:contentDescription="@string/image_content_description"
-        android:scaleType="matrix" />
+        app:cardBackgroundColor="@color/white"
+        app:cardCornerRadius="16dp"
+        app:cardElevation="1dp"
+        app:strokeColor="#E2E8F0"
+        app:strokeWidth="1dp">
+
+        <com.example.echo.ui.ZoomableImageView
+            android:id="@+id/zoomable_image"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#E1E7ED"
+            android:contentDescription="@string/image_content_description"
+            android:scaleType="matrix" />
+    </com.google.android.material.card.MaterialCardView>
 </LinearLayout>
