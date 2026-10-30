@@ -52,13 +52,13 @@ class BroadcastReceiverFragment : Fragment() {
         }
 
         spinner.adapter = adapter
-        spinner.setPopupBackgroundDrawable(ColorDrawable(
-            ContextCompat.getColor(requireContext(), R.color.white)
-        ))
+        spinner.setPopupBackgroundDrawable(
+            ColorDrawable(ContextCompat.getColor(requireContext(), R.color.white))
+        )
         spinner.backgroundTintList = ColorStateList.valueOf(
             ContextCompat.getColor(requireContext(), R.color.primary)
         )
-        spinner.dropDownWidth = ViewGroup.LayoutParams.MATCH_PARENT
+        spinner.setDropDownWidth(ViewGroup.LayoutParams.MATCH_PARENT)
 
         proceedButton.setOnClickListener {
             val nextActivity = if (spinner.selectedItemPosition == 0) {
@@ -81,7 +81,12 @@ class BroadcastReceiverFragment : Fragment() {
                 if (isDropdown) ViewGroup.LayoutParams.WRAP_CONTENT else dp(64)
             )
             gravity = Gravity.CENTER_VERTICAL or Gravity.START
-            setPadding(dp(16), dp(if (isDropdown) 12 else 8), dp(44), dp(if (isDropdown) 12 else 8))
+            setPadding(
+                dp(16),
+                dp(if (isDropdown) 12 else 8),
+                dp(44),
+                dp(if (isDropdown) 12 else 8)
+            )
             minHeight = dp(56)
             maxLines = 2
             ellipsize = TextUtils.TruncateAt.END
