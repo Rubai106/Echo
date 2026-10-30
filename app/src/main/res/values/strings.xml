@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Echo</string>
+    <string name="navigate_back">Back</string>
+    <string name="open_navigation_drawer">Open navigation drawer</string>
+    <string name="drawer_title">Echo</string>
+    <string name="drawer_subtitle">Broadcast &amp; Media</string>
+    <string name="broadcast_receiver">Broadcast Receiver</string>
+    <string name="image_scale">Image Scale</string>
+    <string name="video">Video</string>
+    <string name="audio">Audio</string>
+    <string-array name="broadcast_options">
+        <item>Custom broadcast receiver</item>
+        <item>System battery notification receiver</item>
+    </string-array>
+    <string name="select_broadcast_type">Select a broadcast type</string>
+    <string name="proceed">Proceed</string>
+    <string name="custom_message_title">Custom Broadcast Receiver</string>
+    <string name="enter_message_hint">Enter a plain text message</string>
+    <string name="send_message">Send Message</string>
+    <string name="received_message_title">Received Broadcast Message</string>
+    <string name="no_message_yet">Waiting for the custom broadcast…</string>
+    <string name="battery_title">System Battery Notification Receiver</string>
+    <string name="battery_waiting">Waiting for ACTION_BATTERY_CHANGED…</string>
+    <string name="battery_percentage">Battery level: %1$d%%</string>
+    <string name="image_scale_hint">Pinch with two fingers to zoom in or out.</string>
+    <string name="image_loading">Loading an image from the internet…</string>
+    <string name="image_load_failed">Could not load the image. Check your internet connection and reopen this screen.</string>
+    <string name="video_player_title">Video Player</string>
+    <string name="video_player_hint">Use the playback controls to play the sample video.</string>
+    <string name="video_preparing">Preparing video…</string>
+    <string name="video_playing">Playing sample video</string>
+    <string name="video_completed">Playback complete. Use the controls to replay.</string>
+    <string name="video_playback_error">The video could not be played. Please try reopening this screen.</string>
+    <string name="audio_player_title">Audio Player</string>
+    <string name="audio_player_hint">Play the included sample audio clip.</string>
+    <string name="audio_preparing">Preparing audio…</string>
+    <string name="audio_ready">Ready to play</string>
+    <string name="audio_playing">Playing sample audio…</string>
+    <string name="audio_paused">Audio paused</string>
+    <string name="audio_stopped">Audio stopped. Press Play to listen again.</string>
+    <string name="audio_completed">Playback complete. Press Play to listen again.</string>
+    <string name="audio_playback_error">Audio could not be loaded. Please try reopening this screen.</string>
+    <string name="third_activity_explanation">This activity registers a custom BroadcastReceiver, receives the message broadcast from the previous screen, and displays the received text below.</string>
+    <string name="play">Play</string>
+    <string name="pause">Pause</string>
+    <string name="stop">Stop</string>
+</resources>

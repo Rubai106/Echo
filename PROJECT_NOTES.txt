@@ -1,0 +1,13 @@
+Project: Echo
+Application ID: com.example.echo
+Language: Kotlin
+UI approach: AndroidX Fragments + Navigation Drawer + XML layouts
+
+The custom broadcast branch is implemented with three screens:
+1. Broadcast Receiver selection screen.
+2. CustomMessageActivity for entering plain text.
+3. CustomBroadcastActivity for registering, sending, receiving, and displaying the app-scoped custom broadcast.
+
+The battery receiver is a separate branch and is handled by BatteryActivity. It does not enter CustomBroadcastActivity.
+
+See README.md for opening, building, and running the project.
