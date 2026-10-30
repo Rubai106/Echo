@@ -16,14 +16,6 @@
         android:padding="24dp">
 
         <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginBottom="16dp"
-            android:text="@string/third_activity_explanation"
-            android:textColor="@color/text_secondary"
-            android:textSize="14sp" />
-
-        <TextView
             android:id="@+id/received_message_text"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
