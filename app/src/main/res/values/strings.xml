@@ -30,6 +30,7 @@
     <string name="video_player_hint">Use the playback controls to play the sample video.</string>
     <string name="video_preparing">Preparing video…</string>
     <string name="video_playing">Playing sample video</string>
+    <string name="video_paused">Video paused</string>
     <string name="video_waiting_for_frame">Video started; waiting for the first frame…</string>
     <string name="video_no_frame">The player started, but Android did not render a video frame. Check device graphics support.</string>
     <string name="video_buffering">Buffering video…</string>
