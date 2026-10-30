@@ -5,6 +5,7 @@ import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.widget.ArrayAdapter
 import android.widget.Button
 import android.widget.Spinner
 import androidx.fragment.app.Fragment
@@ -23,6 +24,15 @@ class BroadcastReceiverFragment : Fragment() {
         super.onViewCreated(view, savedInstanceState)
         val spinner = view.findViewById<Spinner>(R.id.broadcast_type_spinner)
         val proceedButton = view.findViewById<Button>(R.id.proceed_button)
+
+        val adapter = ArrayAdapter.createFromResource(
+            requireContext(),
+            R.array.broadcast_options,
+            R.layout.spinner_selected_item
+        ).apply {
+            setDropDownViewResource(R.layout.spinner_dropdown_item)
+        }
+        spinner.adapter = adapter
 
         proceedButton.setOnClickListener {
             val nextActivity = if (spinner.selectedItemPosition == 0) {
