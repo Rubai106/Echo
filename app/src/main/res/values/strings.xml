@@ -13,9 +13,12 @@
         <item>System battery notification receiver</item>
     </string-array>
     <string name="select_broadcast_type">Select a broadcast type</string>
+    <string name="broadcast_receiver_description">Choose which receiver demonstration you want to run.</string>
     <string name="proceed">Proceed</string>
 
     <string name="custom_message_title">Custom Broadcast</string>
+    <string name="message_entry_heading">Enter a message</string>
+    <string name="message_entry_description">Type a plain-text message. The next screen will receive it through your custom broadcast receiver.</string>
     <string name="enter_message_hint">Enter message</string>
     <string name="send_message">Send</string>
     <string name="received_message_title">Received Message</string>
