@@ -52,9 +52,9 @@ class BroadcastReceiverFragment : Fragment() {
         }
 
         spinner.adapter = adapter
-        spinner.popupBackground = ColorDrawable(
+        spinner.setPopupBackgroundDrawable(ColorDrawable(
             ContextCompat.getColor(requireContext(), R.color.white)
-        )
+        ))
         spinner.backgroundTintList = ColorStateList.valueOf(
             ContextCompat.getColor(requireContext(), R.color.primary)
         )
